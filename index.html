@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Online Book Store Website </title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+        <!-- font awesome cdn link  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body> 
+        <!-- header section starts  -->
+        <header class="header">
+            <div class="header-1">
+                <a href="index.html" class="logo"> <i class="fas fa-book"></i> bookly </a>
+                <form action="" class="search-form">
+                    <input type="search" name="" placeholder="search here..." id="search-box">
+                    <label for="search-box" class="fas fa-search"></label>
+                </form>
+                <div class="icons">
+                    <div id="search-btn" class="fas fa-search"></div>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="account.html" id="login-btn" class="fas fa-user"></a>
+                </div>
+            </div>
+            <div class="header-2">
+                <nav class="navbar">
+                    <a href="#home">home</a>
+                    <a href="cart.html">cart</a>
+                    <a href="#featured">featured</a>
+                    <a href="#arrivals">arrivals</a>
+                    <a href="#usedbook">used book</a>
+                    <a href="#reviews">reviews</a>
+                    <a href="#blogs">blogs</a>
+                </nav>
+            </div>
+        </header>
+        <!-- header section ends -->
+
+
+        <!-- bottom navbar  -->
+        <nav class="bottom-navbar">
+            <a href="#home" class="fas fa-home"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+            <a href="#featured" class="fas fa-list"></a>
+            <a href="#arrivals" class="fas fa-tags"></a>
+            <a href="#reviews" class="fas fa-comments"></a>
+            <a href="#blogs" class="fas fa-blog"></a>
+            <a href="#usedbook" class="fas fa-list"></a>
+        </nav>
+        <!-- end bottom navbar  -->
+
+
+        <!-- login form  -->
+        <div class="login-form-container">
+            <div id="close-login-btn" class="fas fa-times"></div>
+        </div>
+        <!-- login form  -->
+
+
+        <!-- home section starts  -->
+        <section class="home" id="home">
+            <div class="row">
+                <div class="content">
+                    <h3>upto 75% off</h3>
+                    <p>Read the book build your future</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+                <div class="swiper books-slider">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+                    </div>
+                    <img src="image/stand.png" class="stand" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- home section ense  -->
+
+
+        <!-- icons section starts  -->
+        <section class="icons-container">
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <div class="content">
+                    <h3>free shipping</h3>
+                    <p>order over $12</p>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fas fa-lock"></i>
+                <div class="content">
+                    <h3>secure payment</h3>
+                    <p>100 secure payment</p>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fas fa-redo-alt"></i>
+                <div class="content">
+                    <h3>easy returns</h3>
+                    <p>10 days returns</p>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <div class="content">
+                    <h3>24/7 support</h3>
+                    <p>call us anytime</p>
+                </div>
+            </div>
+        </section>
+        <!-- icons section ends -->
+
+
+        <!-- featured section starts  -->
+        <section class="featured" id="featured">
+            <h1 class="heading"><span>featured books</span></h1>
+            <div class="swiper featured-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>THE MAGIC OF THE LOST STORY</h3>
+                            <div class="price">$15.99<span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>FAIRY TALE</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>RIVER KINGS</h3>
+                            <div class="price">$10 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>THE COMPLETE REFERENCE JAVA</h3>
+                            <div class="price">$11 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>OUR MISSING HEARTS</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-6.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>SECLUDED CABIN SLEEPS SIX</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-7.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>All~TIME FAVOURITES</h3>
+                            <div class="price">$16.99 <span>$22.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-8.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>THE INK BLACK HEART</h3>
+                            <div class="price">$9.99 <span>$15.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-9.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>ME BEFORE YOU</h3>
+                            <div class="price">$12.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-search"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="image/book-10.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>THE DAVINCHI CODE</h3>
+                            <div class="price">$17.99 <span>$20.99</span></div>
+                            <a href="#" class="btn">add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <!-- featured section ends -->
+
+
+        <!-- newsletter section starts -->
+        <section class="newsletter">
+            <form action="">
+                <h3>subscribe for latest updates</h3>
+                <input type="email" name="" placeholder="enter your email" id="" class="box">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        </section>
+        <!-- newsletter section ends -->
+
+
+        <!-- arrivals section starts  -->
+        <section class="arrivals" id="arrivals">
+            <h1 class="heading"> <span>new arrivals</span> </h1>
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the magic of the lost story</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>stephen king</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>river kings</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-4.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Java 7th edition</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-5.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>our missing heart</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-6.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>secluded cabin sleeps six</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-7.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>ruskin bond</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-8.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the ink black heart/h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-9.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>jojo moyes me before you</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-10.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>te davinci code</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- arrivals section ends -->
+
+
+        <!-- deal section starts  -->
+        <section class="deal">
+            <div class="content">
+                <h3>deal of the day</h3>
+                <h1>upto 50% off</h1>
+                <p>Buy it Read it</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+            <div class="image">
+                <img src="image/deal-img.jpg" alt="">
+            </div>
+        </section>
+        <!-- deal section ends -->
+
+
+        <!-- used book section start-->
+        <section class="arrivals" id="usedbook">
+            <h1 class="heading"> <span>used books</span> </h1>
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-11.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Engineering Mathematics</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-12.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>the psychology of money</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-13.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>two by two</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-14.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Biology +2</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-15.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>sotware engineering</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper arrivals-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-16.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>introduction to biomedical equipement technology</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-17.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Intro. automata theory, languages and computation</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-18.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Computer System architecture</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-19.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>basic electronics</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/book-20.png" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>foundation engineering</h3>
+                            <div class="price">$15.99 <span>$20.99</span></div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- used book section ends -->
+
+
+        <!-- reviews section starts  -->
+        <section class="reviews" id="reviews">
+            <h1 class="heading"> <span>Client's reviews</span> </h1>
+            <div class="swiper reviews-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="image/pic-1.png" alt="">
+                        <h3>John Deo</h3>
+                        <p>it's a awesome website to buy new and second hand books</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image/pic-2.png" alt="">
+                        <h3>Reshna Kumar</h3>
+                        <p>has almost all collection of books</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image/pic-3.png" alt="">
+                        <h3>Ravi kumar</h3>
+                        <p>has a wide variety of books</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image/pic-4.png" alt="">
+                        <h3>Tasnima</h3>
+                        <p>should be recommended to book lover.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="image/pic-5.png" alt="">
+                        <h3>Martin</h3>
+                        <p>waiting for your progress</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- reviews section end  -->
+
+
+        <!-- blog section starts  -->
+        <section class="blogs" id="blogs">
+            <h1 class="heading"> <span>our blogs</span> </h1>
+            <div class="swiper blogs-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/blog-1.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>A Thousand Kisses Deep</h3>
+                            <p>Novoneel Chakraborty's books need no introduction.He is a master storyteller specializing in complex domestic and dramatic thrillers esp.those which feature romance,suspencse and erotica.The author has to his cedit more than 20 books and his writing is only getting better.....</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/blog-2.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Curse Of Kuldhara</h3>
+                            <p>They say fame and fortune are a deadly combination.But what if it comes accompanied by danger?..</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/blog-3.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Mad About You</h3>
+                            <p>Mhairi Mcfarlane is best known for her cute romansces and being a romance buff,I had come across her name many times.but somehow,it was only recently that i got a chance to pick up her latest, Mad About You.........</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/blog-4.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Text God</h3>
+                            <p>In the mood for something feel-good and light-hearted, I was once again back to my Storytel app, browsing through new titles to listen to. That’s when I chanced upon Whitney Dineen and Melanie Summers’s The Text God, a book that was based on a rather unusual concept. Read on to know more about the book and my experience of reading it.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="image/blog-5.jpeg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>The Bookish Life Of Nina Hill</h3>
+                            <p>Nina Hill is a 29-year-old bookworm who loves being alone, thank you very much! As an only child of a single mother, Nina loves spending time with herself. She loves her well-organized life. She has a job at a bookstore, a cat named Phil, an awesome trivia team for the nights when she feels particularly adventurous, and a world-class planner. If it all she doubts that there might be more to explore in life, she shrugs off the feeling and picks up a new book to read.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- blog section end -->
+
+
+        <!-- footer section starts  -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>our locations</h3>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> india </a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> USA </a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> russia </a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> france </a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> japan </a>
+                    <a href="#"> <i class="fas fa-map-marker-alt"></i> africa </a>
+                </div>
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home"> <i class="fas fa-arrow-right"></i> home </a>
+                    <a href="#featured"> <i class="fas fa-arrow-right"></i> featured </a>
+                    <a href="#arrivals"> <i class="fas fa-arrow-right"></i> arrivals </a>
+                    <a href="#usedbook"> <i class="fas fa-arrow-right"></i> used book </a>
+                    <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+                    <a href="#blogs"> <i class="fas fa-arrow-right"></i> blogs </a>
+                </div>
+                <div class="box">
+                    <h3>extra links</h3>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> account info </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> ordered items </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> privacy policy </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> payment method </a>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> our serivces </a>
+                </div>             
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#"> <i class="fas fa-phone"></i>+91 9876543210</a>
+                    <a href="#"> <i class="fas fa-phone"></i>+91 8765432109</a>                   
+                    <a href="#"> <i class="fas fa-phone"></i>+91 7654321098</a>
+                    <a href="#"> <i class="fas fa-phone"></i>+91 6543210987</a>
+                    <img src="image/worldmap.png" class="map" alt="">
+                </div>
+            </div>
+            <div class="credit">Credits to <a href="credit.html">mr.klrab3490</a> for supporting with the build</div>
+        </section>
+        <!-- footer section starts  -->
+
+
+        <!-- startup loading gif starts  -->
+        <div class="loader-container">
+            <img src="image/loader-img.gif" alt="">
+        </div>
+        <!-- startup loading gif end  -->
+
+
+        <script>
+            function myFunction(){
+                document.getElementById(box).style.cssText='height: 60rem;';
+            }
+        </script>
+
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <!-- custom js file link  -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
